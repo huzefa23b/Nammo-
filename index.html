@@ -1,0 +1,240 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <meta name="theme-color" content="#080612">
+
+    <title>For Namira ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Great+Vibes&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     LOADING SCREEN
+===================================================== -->
+
+<div id="loader">
+
+    <div class="loader-orbit">
+        <div class="loader-heart">♥</div>
+    </div>
+
+    <div class="loader-text">
+        <span>Creating something</span>
+        <strong>for Namira...</strong>
+    </div>
+
+    <div class="loader-progress">
+        <div></div>
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     BACKGROUND
+===================================================== -->
+
+<canvas id="stars"></canvas>
+
+<div class="aurora aurora-one"></div>
+<div class="aurora aurora-two"></div>
+
+<div class="noise"></div>
+
+
+<!-- =====================================================
+     MUSIC
+===================================================== -->
+
+<audio id="music" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-button" id="musicButton" aria-label="Music">
+    <span class="music-bars">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+    </span>
+</button>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<nav class="nav">
+
+    <div class="brand">
+        <span class="brand-dot"></span>
+        N<span>♥</span>H
+    </div>
+
+    <div class="nav-progress">
+        <div id="navProgress"></div>
+    </div>
+
+    <button class="menu-button" id="menuButton">
+        <span></span>
+        <span></span>
+    </button>
+
+</nav>
+
+
+<!-- =====================================================
+     SIDE MENU
+===================================================== -->
+
+<div class="menu-overlay" id="menuOverlay">
+
+    <button class="close-menu" id="closeMenu">×</button>
+
+    <div class="menu-inner">
+
+        <p class="eyebrow">OUR LITTLE WORLD</p>
+
+        <a href="#home">Beginning</a>
+        <a href="#letter">My Letter</a>
+        <a href="#universe">Our Universe</a>
+        <a href="#memories">Memories</a>
+        <a href="#heartbeat">My Heart</a>
+        <a href="#apology">If You're Angry</a>
+        <a href="#forever">Forever</a>
+
+    </div>
+
+</div>
+
+
+<main>
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero section" id="home">
+
+    <div class="hero-glow"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow reveal">
+            A PRIVATE LITTLE UNIVERSE
+        </p>
+
+        <h1 class="hero-title reveal">
+
+            <span>For</span>
+
+            <em>Namira</em>
+
+            <small>♥</small>
+
+        </h1>
+
+        <p class="hero-description reveal">
+            I could have written you a message...
+            <br>
+            Instead, I built you a little universe.
+        </p>
+
+        <button class="enter-button reveal" id="enterButton">
+
+            <span class="enter-ring"></span>
+
+            <span class="enter-heart">♥</span>
+
+            <span class="enter-label">
+                Enter our world
+            </span>
+
+        </button>
+
+    </div>
+
+    <div class="scroll-hint">
+        <span></span>
+        Scroll slowly
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     LETTER
+===================================================== -->
+
+<section class="letter-section section" id="letter">
+
+    <div class="section-number">01</div>
+
+    <div class="letter-layout">
+
+        <div class="section-heading reveal">
+
+            <p class="eyebrow">
+                A LETTER I COULDN'T TEXT
+            </p>
+
+            <h2>
+                Some things
+                <br>
+                deserve a <em>moment.</em>
+            </h2>
+
+        </div>
+
+
+        <div class="letter-card reveal">
+
+            <div class="letter-top">
+                <span>01 / 07</span>
+                <span>♥</span>
+            </div>
+
+            <div class="letter-content">
+
+                <p class="type-line">
+                    Dear Namira,
+                </p>
+
+                <div id="loveLetter">
+
+                    <p>
+                        There are people who walk into your life
+                        and simply become a part of it.
+                    </p>
+
+                    <p>
+                        And then there are people who somehow
+                        make the entire world feel a little different.
+                    </p>
+
+                    <p>
+                        You are that person for me.
+                    </p>
+
+                    <p>
+                        I don't know what tomorrow looks like.
+                        But whenever I imagine the beautiful parts
+                        of it...
+                    </p>
+
+                    <p class="highlight">
+                        somehow, you're there.
+                   
